@@ -1,0 +1,17 @@
+<div class="cube"></div>
+
+<style>
+  .cube {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    margin: 100px auto;
+    transform-style: preserve-3d;
+    animation: rotate 5s infinite linear;
+  }
+
+  @keyframes rotate {
+    0%   { transform: rotateY(0deg); }
+    100% { transform: rotateY(360deg); }
+  }
+</style>
